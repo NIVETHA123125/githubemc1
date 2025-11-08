@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.time.Local;
 class hello{
     public static void main(String args []){
         Scanner x=new Scanner(System.in);

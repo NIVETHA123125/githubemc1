@@ -2,14 +2,27 @@ import java.util.*;
 class hai{
     public static void main(String args [])
     {
-        Scanner x=new Scanner(System.in);
-      int oddcount=1;
-      for(int i=1;i<=100;i++){
-        if(i%3==0 && i%5==0){
-        System.out.print( " ## "+ oddcount+ ". "+i);
-        oddcount=oddcount+1;
-        }
+      int sum=0;
+      int avg;
+     
+      int [] number={1,2,3,4,5,6,7,8,9,10};
+      int a=number.length;
+     for(int i=0;i<number.length;i++)
+     {
+      sum=sum+number[i];
+      
+     
       }
+      avg=sum/a;
+      System.out.println("avg of number array "+avg);
 
-    }
+     }
+     
+    
+      
 }
+
+     
+
+
+    
